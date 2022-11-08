@@ -1,4 +1,4 @@
-package dev.greatseo.junittest.domain;
+package dev.greatseo.template.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

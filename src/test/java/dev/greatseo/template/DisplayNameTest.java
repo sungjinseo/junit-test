@@ -1,4 +1,4 @@
-package dev.greatseo.junittest;
+package dev.greatseo.template;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

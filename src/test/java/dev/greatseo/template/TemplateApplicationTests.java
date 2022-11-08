@@ -1,10 +1,10 @@
-package dev.greatseo.junittest;
+package dev.greatseo.template;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JunitTestApplicationTests {
+class TemplateApplicationTests {
 
     @Test
     void contextLoads() {

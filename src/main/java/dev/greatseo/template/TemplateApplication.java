@@ -1,13 +1,13 @@
-package dev.greatseo.junittest;
+package dev.greatseo.template;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JunitTestApplication {
+public class TemplateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JunitTestApplication.class, args);
+        SpringApplication.run(TemplateApplication.class, args);
     }
 
 }
