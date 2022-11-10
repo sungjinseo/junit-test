@@ -14,10 +14,9 @@ public class MemberService {
 
     private final MemberRepository memberRepository;
 
-    private final ModelMapper modelMapper;
-
     public MemberResponseDto getMemberById(Long id) {
 
+        ModelMapper modelMapper = new ModelMapper();
         Member entity = memberRepository.findById(id)
                 .orElseThrow(() -> new NullPointerException("Member Not Found"));
 
