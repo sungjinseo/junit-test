@@ -32,3 +32,8 @@ logging:
   level:
     '[org.springframework.web]': DEBUG
     '[org.hibernate]': DEBUG
+
+## JWT Custom
+jwt:
+  secret:
+    signature: "SUNGJINSEO"
